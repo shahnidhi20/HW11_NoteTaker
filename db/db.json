@@ -1,1 +1,7 @@
-[{"id":0,"title":"Test Title","text":"Test text"},{"id":1,"title":"Note 1","text":"Note 1"},{"id":2,"title":"Test 3","text":"Note 4"},{"id":3,"title":"Hello Main Test","text":"ddsffds"}]
+[
+  { "id": 0, "title": "Call Bank on Friday", "text": "Call bank on friday" },
+  { "id": 1, "title": "Reschedule Deliver", "text": "Reschedule delivery" },
+  { "id": 2, "title": "Finish Payroll", "text": "Finish payroll" },
+  { "id": 3, "title": "Check in with clients", "text": "Clinet checkin" },
+  { "id": 4, "title": "Thursday Lunch", "text": "Lunch at My Thai" }
+]
