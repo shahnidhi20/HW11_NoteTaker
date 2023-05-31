@@ -10,6 +10,10 @@ Below are the links of the Application and GitHub Repo
 2. [GitHub Repo NoteTaker URL](https://github.com/shahnidhi20/HW11_NoteTaker)
 3. Heroku URL: https://desolate-wildwood-73798.herokuapp.com/
 
+## Output Screenshot
+
+![NoteTaker Screenshot](./output.png)
+
 ## User Story
 
 ```
@@ -39,6 +43,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Table of Contents
 
 - [Description](#description)
+- [Output Screenshot](#output-screenshot)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Table of Contents](#table-of-contents)
