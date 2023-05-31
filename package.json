@@ -1,0 +1,19 @@
+{
+  "name": "notetaker",
+  "version": "1.0.0",
+  "description": "Add notes and update the notes",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "author": "Nidhi Shah",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
+}
