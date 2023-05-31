@@ -2,11 +2,12 @@
    
 ## Description
   
-🔍 This application demonstrates the various REST API calls like GET, POST, DELETE.
+🔍 This application demonstrates the various REST API calls like GET, POST, DELETE to Get the notes from the file, Save the note in the file and delete the note.
 It also shows how to render the data retrieved from the API and show the response in the UI
-⋅⋅* URL List. 
-1. -[Heorku Deployed NoteTaker URL](https://desolate-wildwood-73798.herokuapp.com/)
-2. -[GitHub Repo NoteTaker URL](https://github.com/shahnidhi20/HW11_NoteTaker)
+Below are the links of the Application and GitHub Repo
+
+1. [Heorku Deployed NoteTaker URL](https://desolate-wildwood-73798.herokuapp.com/)
+2. [GitHub Repo NoteTaker URL](https://github.com/shahnidhi20/HW11_NoteTaker)
 3. Heroku URL: https://desolate-wildwood-73798.herokuapp.com/
 
 ## User Story
