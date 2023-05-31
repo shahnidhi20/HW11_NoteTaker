@@ -46,7 +46,6 @@ const saveNote = (note) =>
   });
 
 const deleteNote = (id) => {
-  console.log(id);
   fetch(`/api/v1/notes/${id}`, {
     method: "DELETE",
     headers: {
@@ -107,7 +106,7 @@ const handleNoteDelete = (e) => {
 const handleNoteView = (e) => {
   e.preventDefault();
   activeNote = JSON.parse(e.target.parentElement.getAttribute("data-note"));
-  console.log("Active Note", activeNote);
+
   renderActiveNote();
 };
 
@@ -127,8 +126,6 @@ const handleRenderSaveBtn = () => {
 
 // Render the list of note titles
 const renderNoteList = async (notes) => {
-  console.log(notes);
-
   let jsonNotes = await notes;
   if (window.location.pathname === "/notes") {
     noteList.forEach((el) => (el.innerHTML = ""));

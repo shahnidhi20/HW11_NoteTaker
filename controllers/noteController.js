@@ -15,7 +15,6 @@ exports.checkID = (req, res, next, val) => {
 };
 
 exports.checkBody = (req, res, next) => {
-  console.log(req.body);
   if (!req.body.title) {
     return res.status(400).json({
       status: "fail",
@@ -26,7 +25,6 @@ exports.checkBody = (req, res, next) => {
 };
 
 exports.getAllNotes = (req, res) => {
-  console.log("GET ALL NOTES API");
   res.status(200).json({
     status: "success",
     results: notes.length,
@@ -79,10 +77,9 @@ exports.deleteNote = (req, res) => {
   //find the note with the matching id pass in the params
 
   const note = notes.find((note) => note.id === parseInt(req.params.id));
-  console.log("Note found", note);
+
   notes.splice(notes.indexOf(note), 1);
 
-  console.log(notes);
   fs.writeFile(`${__dirname}/../db/db.json`, JSON.stringify(notes), (err) => {
     res.status(200).json({
       status: "success",

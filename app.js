@@ -11,6 +11,8 @@ if (process.env.NODE_ENV === "development") {
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use(compression());
+
 //mounting the noteRouter
 app.use("/api/v1/notes", noteRouter);
 app.use(express.static("public"));
@@ -23,7 +25,6 @@ app.get("/", (req, res) =>
 
 // GET Route for feedback page
 app.get("/notes", (req, res) => {
-  console.log("Notes heere");
   res.sendFile(path.join(__dirname, "/public/pages/notes.html"));
 });
 
