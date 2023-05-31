@@ -5,8 +5,8 @@
 🔍 This application demonstrates the various REST API calls like GET, POST, DELETE.
 It also shows how to render the data retrieved from the API and show the response in the UI
   
-![Heorku Deployed NoteTaker URL](https://desolate-wildwood-73798.herokuapp.com/)
-![GitHub Repo NoteTaker URL](https://github.com/shahnidhi20/HW11_NoteTaker)
+-[Heorku Deployed NoteTaker URL](https://desolate-wildwood-73798.herokuapp.com/)
+-[GitHub Repo NoteTaker URL](https://github.com/shahnidhi20/HW11_NoteTaker)
    
 ## User Story
   
@@ -55,7 +55,6 @@ Run the following command at th root of your project and answer the prompted que
 For development environment : npm dev
 For Production environment : npm start:prod
 For production: node server.js
-
 
 ## Contributing
 
