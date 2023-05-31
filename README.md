@@ -4,21 +4,22 @@
   
 🔍 This application demonstrates the various REST API calls like GET, POST, DELETE.
 It also shows how to render the data retrieved from the API and show the response in the UI
-  
--[Heorku Deployed NoteTaker URL](https://desolate-wildwood-73798.herokuapp.com/)
--[GitHub Repo NoteTaker URL](https://github.com/shahnidhi20/HW11_NoteTaker)
-   
+⋅⋅* URL List. 
+1. -[Heorku Deployed NoteTaker URL](https://desolate-wildwood-73798.herokuapp.com/)
+2. -[GitHub Repo NoteTaker URL](https://github.com/shahnidhi20/HW11_NoteTaker)
+3. Heroku URL: https://desolate-wildwood-73798.herokuapp.com/
+
 ## User Story
-  
+
 ```
 AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
-  
+
 ## Acceptance Criteria
-  
-``` 
+
+```
 GIVEN a note-taking application
 WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
@@ -33,8 +34,9 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
-  
+
 ## Table of Contents
+
 - [Description](#description)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
